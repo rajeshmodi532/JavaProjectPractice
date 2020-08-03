@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7129" started-at="2020-07-28T09:56:00Z" finished-at="2020-07-28T09:56:07Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="ChromeProfile.InvokeBrowser()[pri:0, instance:scripts.ChromeProfile@6767c1fc]" name="InvokeBrowser" class="scripts.ChromeProfile"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="7129" started-at="2020-07-28T09:56:00Z" finished-at="2020-07-28T09:56:07Z">
+      <class name="scripts.ChromeProfile">
+        <test-method status="PASS" signature="InvokeBrowser()[pri:0, instance:scripts.ChromeProfile@6767c1fc]" name="InvokeBrowser" duration-ms="7088" started-at="2020-07-28T15:26:00Z" finished-at="2020-07-28T15:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvokeBrowser -->
+      </class> <!-- scripts.ChromeProfile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

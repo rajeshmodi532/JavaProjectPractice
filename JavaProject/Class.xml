@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="JavaProject">
+	<test thread-count="5" name="TestNG">
+		<classes>
+			<class name="scripts.ChromeProfile" />
+			<class name="Testng.One">
+				<!-- <methods> <exclude name="MethodTwo"/> <include name="MethodOne"/> 
+					</methods> -->
+			</class>
+			<class name="scripts.WithOutSystemDotSetProperty" />
+			<class name="Testng.Two" />
+			<class name="Testng.Links" />
+			<class name="scripts.Inherit" />
+		</classes>
+	</test>
+</suite>

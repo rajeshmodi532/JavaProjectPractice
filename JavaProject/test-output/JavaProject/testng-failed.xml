@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JavaProject]" parallel="none">
+  <parameter name="XML_Parameter" value="Parameterization Success"/>
+  <test name="Package(failed)" parallel="none" preserve-order="true">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Testng.Two">
+        <methods>
+          <include name="SmokeTest1"/>
+        </methods>
+      </class> <!-- Testng.Two -->
+    </classes>
+  </test> <!-- Package(failed) -->
+</suite> <!-- Failed suite [JavaProject] -->

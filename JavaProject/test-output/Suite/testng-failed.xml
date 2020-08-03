@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests" preserve-order="true">
+    <classes>
+      <class name="Testng.One">
+        <methods>
+          <include name="CloseActiveBrowser"/>
+        </methods>
+      </class> <!-- Testng.One -->
+      <class name="Testng.Links">
+        <methods>
+          <include name="Browser_URL"/>
+        </methods>
+      </class> <!-- Testng.Links -->
+      <class name="Testng.Two">
+        <methods>
+          <include name="A"/>
+          <include name="SmokeTest1"/>
+          <include name="DependOn"/>
+        </methods>
+      </class> <!-- Testng.Two -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
