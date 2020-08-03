@@ -13,8 +13,6 @@ public class ArrayList {
 		WebDriver driver = new ChromeDriver();
 		
 		ArrayList arrlst = new ArrayList();
-		
-		
 		JavascriptExecutor JS = (JavascriptExecutor)driver;
 		JS.executeAsyncScript("document.getElementById('Id').value='text'");
 		// Enter username
