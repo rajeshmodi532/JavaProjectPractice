@@ -10,6 +10,7 @@ abstract class Animal {
 	}
 	/*Can't create object for abstract class*/
 	//Animal obj = new Animal();
+	/**Added comment to commit dummy**/
 }
 
 //Subclass (inherit from Animal)
